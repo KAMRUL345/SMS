@@ -15,6 +15,7 @@ require('connection.php');
 <?php
 require_once('menu.php');
 ?>
+<h2>Product Entry Page</h2>
     <?php
         // echo $_GET['category_name'];
         if(isset($_GET['product_name'])){

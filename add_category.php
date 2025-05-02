@@ -15,6 +15,7 @@ require('connection.php');
 <?php
 require_once('menu.php');
 ?>
+<h2>Category Add Page</h2>
     <?php
         // echo $_GET['category_name'];
         if(isset($_GET['category_name'])){

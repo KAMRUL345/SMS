@@ -14,6 +14,7 @@ require('connection.php');
 <?php
 require_once('menu.php');
 ?>
+<h2>Category List Page</h2>
     <?php
         $sql = "SELECT * FROM category";
 
