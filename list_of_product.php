@@ -8,14 +8,14 @@ require('connection.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List Of Category</title>
+    <title>List Of Product</title>
 </head>
 <body>
 <?php
 require_once('menu.php');
 ?>
     <?php
-        $sql = "SELECT * FROM category";
+        $sql = "SELECT * FROM product";
 
         $query = $conn->query($sql);
         $data = mysqli_fetch_assoc($query);

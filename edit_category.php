@@ -1,5 +1,6 @@
 <?php
 require('connection.php');
+// require_once('menu.php');
 ?>
 
 
@@ -11,6 +12,9 @@ require('connection.php');
     <title>Edit Category</title>
 </head>
 <body>
+<?php
+require_once('menu.php');
+?>
     <?php
         if(isset($_GET['id'])){
             $getid = $_GET['id'];
